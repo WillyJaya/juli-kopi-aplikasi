@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Izin akses internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="Juli Kopi"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+
+        <!-- Halaman Login + Daftar -->
+        <activity
+            android:name=".LoginRegisterActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Halaman Main setelah login -->
+        <activity android:name=".MainActivity" />
+
+        <!-- Halaman lainnya -->
+        <activity android:name=".ProductListActivity" />
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".HistoryActivity" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Juli Kopi</string>
+    <string name="welcome_text">Selamat Datang di Juli Kopi</string>
+    <string name="login">Login</string>
+    <string name="register">Daftar</string>
+    <string name="product_list">Lihat Produk</string>
+    <string name="order_now">Pesan Sekarang</string>
+    <string name="transaction_history">Riwayat Transaksi</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="Logout">Logout</string>
+</resources>

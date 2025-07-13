@@ -49,7 +49,6 @@ class LoginRegisterActivity : AppCompatActivity() {
         etPassword = findViewById(R.id.etPassword)
         btnRegister = findViewById(R.id.btnRegister)
         tvSwitchToLogin = findViewById(R.id.tvSwitchToLogin)
-
         // Default tampil login
         showLoginLayout()
 
